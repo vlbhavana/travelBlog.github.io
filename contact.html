@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Contact-TravelExpess</title>
+        <link rel="stylesheet" href="PageStyle.css">
+        <style>
+            label{
+                color: antiquewhite;
+                font-family: cursive;
+            }
+            input[type=text], select {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            input[type=submit] {
+                width: 100%;
+                font-size: 25;
+                background-color: goldenrod;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            input[type=submit]:hover {
+                background-color:firebrick;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a class="blog-logo" href="index.html"><img src="logo1.png" alt="Travel Express"/></a>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul> 
+            </nav>   
+        </header>
+        <br>
+        <div class = "box">
+            <div>
+                <img src="contact.jpg"/>
+            </div>
+            <form>
+                <label for="Name">Name</label><br>
+                <input type="text" id="Name"><br><br>
+                <label for="E-mail">E-mail</label><br>
+                <input type="text" id="E-mail"><br><br>
+                <label for="Message">Tell me more!</label><br>
+                <input type="text" size="25" width="25" height="50" id="Message"><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+       <footer>
+            <div class="footer" style="object-position: bottom">
+                <p style="font-size:30px;font-family:'Comic Sans MS';">Stay Updated!<br/>Get the latest updates!</p>
+                <input type="text" placeholder="Enter your email-address"><br/><br/><input type="button" class="subscribebutton"  value="Subscribe"><br/><br/>
+            </div>
+            <div class="text-center" style="object-position: bottom">
+                <a href="index.html" style="color: goldenrod;font-size: 25;">Home</a>
+            </div>
+	   </footer>
+    </body>
+</html>

@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <style>
+            body, html {
+                height: 100%;
+                margin: 0;
+                font-family:'Comic Sans MS';background-color:black;
+            }
+            a,#anchor{
+                background-color:goldenrod;
+                color:black;background-size:25;
+                padding:0
+            }
+            .bg-image {/* Add the blur effect */
+                filter: blur(6px);
+                -webkit-filter: blur(8px); 
+                background-repeat: no-repeat;
+            }
+
+            /* Position text in the middle of the page/image */
+            .bg-text {
+                /*background-color: rgb(0,0,0); /* Fallback color */
+                /*background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+                background-blend-mode:screen;
+                color: white;
+                font-weight: bolder;
+                font-size:23;
+                /*border: 6px solid rgb(0,0,0,0.4);*/
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 2;
+                width: 60%;
+                padding: 20px;
+                text-align: center;
+                text-shadow: 2px 2px palevioletred;
+            }
+            .button {
+                background-color:goldenrod;
+                border: none;
+                color: white;
+                padding: 1px 12px;
+                margin-top: 5px;;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 26px;
+                cursor: pointer;
+                width: 400 px;
+            }
+            .column {
+                float: left;
+                width: 400 px;
+                padding: 7px;
+            }
+
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        </style>
+
+</head>
+<body>
+    <header class="bg-image">
+      <div style="padding:50px;margin:5px;background-image:url('dubaitop.jpg');background-repeat: no-repeat;background-size: cover;width:1400px;height:400px;border:10px solid goldenrod;">
+      </div>
+    </header>
+
+    <div class="bg-text">
+    <h1>Dubai-Meet the Sea Sand and Sky!!</h1></div>
+  
+ 
+    <div class="row">
+      <div class="column">
+        <div>
+          <a href="dsf.html"> <img src="dsf.jpg" width="500" height="400"><br/> <input type="button" class="button" value="Dirhams at the ready" style="width: 500"></a>
+      </div>
+    </div>
+
+    <div class="column">
+      <div>
+        <a href="dsf.html"> <img src="lovelake.jpg" width="500" height="400"><br/> <input type="button" class="button" value="Looking for Romance?" style="width: 500"></a>
+    </div>
+  </div>
+
+
+
+  <div class="column">
+    <div>
+      <a href="dsf.html"> <img src="bargainatasouk.jpg" width="470" height="400"><br/> <input type="button" class="button" value="Bargain like the locals" style="width: 470"></a>
+  </div>
+</div>
+
+<div class="column">
+  <div>
+    <a href="dsf.html"> <img src="alfahidi.jpg" width="500" height="400"><br/> <input type="button" class="button" value="Get a Culture Fix" style="width: 500"></a>
+</div>
+</div>
+
+
+<div class="column">
+  <div>
+    <a href="dsf.html"> <img src="globalvillage.jpg" width="500" height="400"><br/> <input type="button" class="button" value="Travel the world in an hour" style="width: 500"></a>
+</div>
+</div>
+
+<div class="column">
+  <div>
+    <a href="dsf.html"> <img src="dubaifountain.jpg" width="470" height="400"><br/> <input type="button" class="button" value="Watch the Fountain dance!" style="width: 470"></a>
+</div>
+</div>
+
+<div class="column">
+  <div>
+    <a href="dsf.html"> <img src="desertsafari.jpg" width="500" height="400"><br/> <input type="button" class="button" value="Watch the Fountain dance!" style="width: 500"></a>
+</div>
+</div>
+
+
+
+    </div>
+    
+    
+</body>
+
+
+</html>

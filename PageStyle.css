@@ -1,0 +1,195 @@
+html,body{
+    margin:0;
+    padding:0;
+    height: 100%;
+    font-family:'Comic Sans MS';
+    background-color:black;
+}
+h1{
+    margin: 0
+}
+/*body{
+    background-color: black;
+    background-image: url('StarryNightBackgroundImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+/* Appears in the top left corner of your home page */
+.blog-logo {
+	display:block;
+	float:left;
+	background:none !important;
+	/* Makes sure there is never a background */
+	border:none !important;
+	/* Makes sure there is never a border */
+}
+.blog-logo img {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	display:block;
+	height:auto;
+	padding:0;
+	width:auto;
+	opacity:1;
+	transition:all 0.4s;
+}
+.blog-logo img:hover {
+	opacity:1.0;
+	transition:all 0.4s;
+}
+/*Background top image */
+.bg-image 
+{/* Add the blur effect */
+    filter: blur(6px);
+    /*-webkit-filter: blur(8px); */
+    background-repeat: no-repeat;
+}
+/* Position text in the middle of the page/image */
+.bg-text {
+    /*background-color: rgb(0,0,0); /* Fallback color */
+    /*background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-blend-mode:screen;
+    color: white;
+    font-weight: bolder;
+    font-size:23;
+    /*border: 6px solid rgb(0,0,0,0.4);*/
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px palevioletred;
+}
+/*
+a,#anchor{
+    background-color:goldenrod;
+    color:black;
+    background-size:25;
+    padding:0
+}*/
+/*FOR NAVIGATION BAR*/
+.navbar ul {
+    float: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    /*background-color:blue;*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration:none;
+    font-weight:bold;
+    font-family:'Comic Sans MS', cursive, sans-serif; 
+}
+.navbar li a:hover{
+    background-color:goldenrod;
+}
+/*BOX FOR CONTACTS*/
+.box{
+    align-content: center;
+    width: 90%;
+    padding: 20px;
+    border: 5px solid goldenrod;
+}
+.footer{color:white;background-color:black;margin:0%}
+.subscribebutton {
+    background-color:goldenrod;
+    border: none;
+    color: white;
+    padding: 1px 12px;
+    margin-top: 5px;;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    width: 10%;
+    height: 5%;
+}
+.column {
+    float: left;
+    width: 400 px;
+    padding: 7px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*FOR HOME PAGE LAYOUT*/
+.boxes{
+    padding: 10px;
+}
+.left-child {
+    align-content: center;
+    width: 46%;
+    float: left;
+    padding: 20px;
+    border: 5px solid goldenrod;
+    /*background-color:palevioletred;*/
+} 
+.right-child {
+    width: 46%;
+    float: right;
+    padding: 20px;
+    border: 5px solid goldenrod;
+} 
+/* FOR ABOUTPAGE CONTENT*/
+.content div
+{
+    color: white;
+    text-align:center;
+    align-content: center;
+    margin-top: 0px;
+    margin-left: 100px;
+    font-family: cursive; 
+    width: 80%;
+}
+span{
+    color: floralwhite;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 100;
+}
+
+/*FOR IMAGE GRIDS */
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.image-column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.image-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.text-center {
+	text-align:center;
+}
+.Content
+{
+    text-align:center;
+    color: antiquewhite;
+}
